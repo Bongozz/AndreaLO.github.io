@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outer Space!</title>
+    <style>
+        body {
+            background-image: url('https://secure.static.tumblr.com/f32ee0dda230fd7b69e9ab098a3ba228/ctmhrlq/K2Ynnfhhp/tumblr_static_91y6pjva6r0o80sg8kc88c48k.gif');
+            background-size: cover;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+        }
+
+        img:hover {
+            animation: shake 0.3s ease-in-out infinite;
+        }
+
+        .center-text {
+            text-align: center; 
+            font-family: "Comic Sans MS"; 
+            background-color: LightGray;
+            padding: 10px;
+        }
+
+        .center-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="center-text">HELLO and WELCOME TO MY SPACE!</h1>
+    <p class="center-text">WHAT DO YOU GET WHEN YOU MIX AN ALIEN AND A CAT???</p>
+
+    <div class="center-button">
+        <button onclick="window.location.href='other_page.html'">ANSWER!!</button>
+    </div>
+
+    <a href="Another_page.html">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTA1enJyeXY4ZjI2cGU1M2thY3E1eWtjczZmcDlxbHBxNWpkZzNvNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KQZYqBk61EcQhTJexz/giphy.gif" alt="cat dancing" style="width:45%;">
+    </a>
+
+    <p class="center-text">P.S CLICK ON MY FACE!!!</p>
+
+</body>
+</html>
